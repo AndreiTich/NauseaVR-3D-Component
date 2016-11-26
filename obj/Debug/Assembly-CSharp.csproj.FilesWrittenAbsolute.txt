@@ -1,0 +1,14 @@
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/UnityEngine.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/UnityEditor.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/Google.ProtocolBuffers.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Andrei/git/Simple VR App/Temp/bin/Debug/Mono.Cecil.Mdb.dll
