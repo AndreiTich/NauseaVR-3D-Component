@@ -7,6 +7,9 @@ using System;
 public class sineMove : MonoBehaviour {
 	private GameObject head;
 	private GameObject left_eye;
+	private GameObject right_eye;
+	private GameObject inner_head;
+	private GameObject maincamera;
 	private GameObject go;
 	private SocketIOComponent socket;
 
@@ -18,6 +21,9 @@ public class sineMove : MonoBehaviour {
 
 		head = GameObject.Find("GvrMain");
 		left_eye = GameObject.Find("Main Camera Left");
+		right_eye = GameObject.Find("Main Camera Right");
+		inner_head = GameObject.Find ("Head");
+		maincamera = GameObject.Find ("Main Camera");
 		socket.On("reset", reset);
 		socket.On("intensity", setIntensity);
 		socket.On("deltaEyes", setEyeDisplace);
@@ -48,6 +54,10 @@ public class sineMove : MonoBehaviour {
 		intensity = 0.2f;
 		eyedisplace = 0f;
 		head.transform.rotation = Quaternion.identity;
+		left_eye.transform.rotation = Quaternion.identity;
+		right_eye.transform.rotation = Quaternion.identity;
+		inner_head.transform.rotation = Quaternion.identity;
+		maincamera.transform.rotation = Quaternion.identity;
 	}
 
 	// Update is called once per frame
